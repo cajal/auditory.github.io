@@ -147,12 +147,13 @@
         </section>
 
         <section>
-          <div class="wrap size-50">
+          <div class="wrap size-70">
               <center>
               <h3>Speech v.s. ambient noise</h3>
               <table>
                 <thead>
                   <tr>
+                    <th>Speaker ID</th>
                     <th>Mixture input</th>
                     <th>Ground Truth</th>
                     <th>Ours</th>
@@ -160,69 +161,118 @@
                 </thead>
                 <tbody>
                   <tr style="border-top:1px solid black">
-                    <td rowspan="2"><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/wham/22go010m_0.3947_421o0310_-0.3947.wav"
+                    <td rowspan="3">1963</td>
+                    <td rowspan="1"><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                        <source src="examples/ex_1963-142393-0016_21.25/mixture.wav"
                           type="audio/wav"></audio></td>
                     <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/wham/22go010m_0.3947_421o0310_-0.3947_s1_gt.wav"
+                        <source src="examples/ex_1963-142393-0016_21.25/s1.wav"
                           type="audio/wav"></audio></td>
                     <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/wham/22go010m_0.3947_421o0310_-0.3947_s1.wav"
+                        <source src="examples/ex_1963-142393-0016_21.25/s1_estimate.wav"
                           type="audio/wav"></audio></td>
                     <!-- <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
                         <source src="src/samples/wham/"
                           type="audio/wav"></audio></td>
                     <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/wham/"
-                          type="audio/wav"></audio></td> -->
-                  </tr>
-                  <tr>
-                    <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/wham/22go010m_0.3947_421o0310_-0.3947_s2_gt.wav"
-                          type="audio/wav"></audio></td>
-                    <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/wham/22go010m_0.3947_421o0310_-0.3947_s2.wav"
-                          type="audio/wav"></audio></td>
-                    <!-- <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/wham/"
-                          type="audio/wav"></audio></td> -->
-                    <!-- <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
                         <source src="src/samples/wham/"
                           type="audio/wav"></audio></td> -->
                   </tr>
                   <tr style="border-top:1px solid black">
-                    <td rowspan="2"><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/wham/mix.wav"
+                    <td rowspan="1"><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                        <source src="examples/ex_1963-142393-0017_17.42/mixture.wav"
                           type="audio/wav"></audio></td>
                     <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/wham/gt_ex1.wav"
+                        <source src="examples/ex_1963-142393-0017_17.42/s1.wav"
                           type="audio/wav"></audio></td>
                     <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/wham/pred1.wav"
+                        <source src="examples/ex_1963-142393-0017_17.42/s1_estimate.wav"
                           type="audio/wav"></audio></td>
-                    <!-- <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/wham/"
-                          type="audio/wav"></audio></td>
-                    <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/wham/"
-                          type="audio/wav"></audio></td> -->
                   </tr>
-                  <tr>
-                    <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/wham/gt_ex2.wav"
+                  <tr style="border-top:1px solid black">
+                    <td rowspan="1"><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                        <source src="examples/ex_1963-142393-0018_15.80/mixture.wav"
                           type="audio/wav"></audio></td>
                     <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/wham/pred2.wav"
+                        <source src="examples/ex_1963-142393-0018_15.80/s1.wav"
                           type="audio/wav"></audio></td>
-                    <!-- <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/wham/"
-                          type="audio/wav"></audio></td> -->
-                    <!-- <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/wham/"
-                          type="audio/wav"></audio></td> -->
+                    <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                        <source src="examples/ex_1963-142393-0018_15.80/s1_estimate.wav"
+                          type="audio/wav"></audio></td>
+                  </tr>
+
+                  <tr style="border-top:1px solid black">
+                    <td rowspan="3">2911</td>
+                    <td rowspan="1"><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                        <source src="examples/ex_2911-12359-0014_15.65/mixture.wav"
+                          type="audio/wav"></audio></td>
+                    <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                        <source src="examples/ex_2911-12359-0014_15.65/s1.wav"
+                          type="audio/wav"></audio></td>
+                    <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                        <source src="examples/ex_2911-12359-0014_15.65/s1_estimate.wav"
+                          type="audio/wav"></audio></td>
+                  </tr>
+                  <tr style="border-top:1px solid black">
+                    <td rowspan="1"><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                        <source src="examples/ex_2911-12359-0015_15.10/mixture.wav"
+                          type="audio/wav"></audio></td>
+                    <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                        <source src="examples/ex_2911-12359-0015_15.10/s1.wav"
+                          type="audio/wav"></audio></td>
+                    <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                        <source src="examples/ex_2911-12359-0015_15.10/s1_estimate.wav"
+                          type="audio/wav"></audio></td>
+                  </tr>
+                  <tr style="border-top:1px solid black">
+                    <td rowspan="1"><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                        <source src="examples/ex_2911-12359-0016_18.52/mixture.wav"
+                          type="audio/wav"></audio></td>
+                    <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                        <source src="examples/ex_2911-12359-0016_18.52/s1.wav"
+                          type="audio/wav"></audio></td>
+                    <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                        <source src="examples/ex_2911-12359-0016_18.52/s1_estimate.wav"
+                          type="audio/wav"></audio></td>
+                  </tr>
+
+                  <tr style="border-top:1px solid black">
+                    <td rowspan="2">8123</td>
+                    <td rowspan="1"><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                        <source src="examples/ex_8123-275216-0032_19.83/mixture.wav"
+                          type="audio/wav"></audio></td>
+                    <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                        <source src="examples/ex_8123-275216-0032_19.83/s1.wav"
+                          type="audio/wav"></audio></td>
+                    <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                        <source src="examples/ex_8123-275216-0032_19.83/s1_estimate.wav"
+                          type="audio/wav"></audio></td>
+                  </tr>
+                  <tr style="border-top:1px solid black">
+                    <td rowspan="1"><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                        <source src="examples/ex_8123-275216-0033_16.79/mixture.wav"
+                          type="audio/wav"></audio></td>
+                    <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                        <source src="examples/ex_8123-275216-0033_16.79/s1.wav"
+                          type="audio/wav"></audio></td>
+                    <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                        <source src="examples/ex_8123-275216-0033_16.79/s1_estimate.wav"
+                          type="audio/wav"></audio></td>
                   </tr>
                 </tbody>
               </table>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section class="aligncenter">
+          <!-- .wrap = container (width: 90%) -->
+          <div class="wrap">
+            <p>
+              <a href="old_index.html" class="button" title="Old demos">
+                Old demos
+              </a>
+            </p>
           </div>
           <!-- .end .wrap -->
         </section>
