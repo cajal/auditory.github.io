@@ -1,0 +1,13 @@
+{
+"input_si_sdr": 9.856234550476074,
+"input_sdr": 9.87582937448112,
+"input_sir": Infinity,
+"input_sar": 9.87582937448112,
+"input_stoi": 0.8440044629606878,
+"si_sdr": 18.306346893310547,
+"sdr": 18.52645603105405,
+"sir": Infinity,
+"sar": 18.52645603105405,
+"stoi": 0.9332329660407012,
+"mix_path": "/mnt/scratch07/hushell/UploadAI/datasets/Avatar100+10Mix2/wav8k/min/train-100-openset100+10-test/mix_single/8095-274345-0009_3259-158083-0122.wav"
+}

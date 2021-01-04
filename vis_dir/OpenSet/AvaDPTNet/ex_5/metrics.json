@@ -1,0 +1,13 @@
+{
+"input_si_sdr": -0.03228485584259033,
+"input_sdr": 0.01522695083387049,
+"input_sir": 0.015230117552851086,
+"input_sar": 64.82433948850185,
+"input_stoi": 0.7588673745814416,
+"si_sdr": 18.203235626220703,
+"sdr": 18.719342332173174,
+"sir": 30.315393330974636,
+"sar": 19.19785614992632,
+"stoi": 0.9524795238883403,
+"mix_path": "/mnt/scratch07/hushell/UploadAI/datasets/Avatar100Mix2/wav8k/min/Avatar100Mix2_train-100-rand100-test/mix_clean/7178-34644-0040_5393-19219-0029.wav"
+}
