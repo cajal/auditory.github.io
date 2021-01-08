@@ -1,0 +1,13 @@
+{
+"input_si_sdr": 0.04429936408996582,
+"input_sdr": 0.08669372283021515,
+"input_sir": 0.08669478281429166,
+"input_sar": 70.42173568602996,
+"input_stoi": 0.7307592952955175,
+"si_sdr": 17.985888481140137,
+"sdr": 18.136674968983698,
+"sir": 31.408630899871056,
+"sar": 18.350407860446147,
+"stoi": 0.9646577397226718,
+"mix_path": "/mnt/scratch07/hushell/UploadAI/datasets/Avatar921Mix2/wav8k/min/Avatar921Mix2_train-360-rand921-test/mix_clean/7926-254948-0061_2512-157480-0022.wav"
+}
